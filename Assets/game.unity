@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44717008, g: 0.49709052, b: 0.57515204, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -123,6 +123,1061 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &14297244 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4634032008162064, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &42445141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 42445142}
+  - component: {fileID: 42445143}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &42445142
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42445141}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &42445143
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42445141}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &58499212 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4159956656330372, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &61572996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 61572997}
+  - component: {fileID: 61572998}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &61572997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61572996}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &61572998
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61572996}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &87649060 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4388596583815700, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &149338406 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4833387832597680, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &196468373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4134477478833348, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &259889810 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &270311091 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4586264802888212, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &309090208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309090209}
+  - component: {fileID: 309090210}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309090209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309090208}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &309090210
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309090208}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &310893253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4404746216630624, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &329098375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 329098376}
+  - component: {fileID: 329098377}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &329098376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329098375}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &329098377
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329098375}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &330104502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 330104503}
+  - component: {fileID: 330104504}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &330104503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330104502}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &330104504
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330104502}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &359764746
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 359764747}
+  - component: {fileID: 359764748}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &359764747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359764746}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &359764748
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359764746}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &389641546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 389641547}
+  - component: {fileID: 389641548}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &389641547
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389641546}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &389641548
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389641546}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &391289720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391289721}
+  - component: {fileID: 391289722}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &391289721
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391289720}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &391289722
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391289720}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &391563438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391563439}
+  - component: {fileID: 391563440}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &391563439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391563438}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &391563440
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391563438}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &393358445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4377242333908618, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &417238532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 417238533}
+  - component: {fileID: 417238534}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &417238533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417238532}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &417238534
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417238532}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
 --- !u!1001 &452419970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -136,7 +1191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -180,6 +1235,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
+--- !u!4 &454478026 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4016398349323206, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &496254665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4388769296639126, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &499332217 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &509918232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1996280192660208, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+  m_PrefabInstance: {fileID: 565624085}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &509918233
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509918232}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 27.78731, y: 9.680104, z: 15.436002}
+  m_Center: {x: -0.34180498, y: 4.840051, z: -1.048698}
 --- !u!1001 &526994611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -193,7 +1281,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4585601856761568, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -237,6 +1325,2012 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 68d2e588be11c45b5bcef522aa3f7cca, type: 3}
+--- !u!1 &535568782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 535568783}
+  - component: {fileID: 535568784}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &535568783
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535568782}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 46
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &535568784
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535568782}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &545756630 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4377242333908618, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &562011215
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 562011216}
+  - component: {fileID: 562011217}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &562011216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562011215}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &562011217
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 562011215}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &563959378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 563959379}
+  - component: {fileID: 563959380}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &563959379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563959378}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &563959380
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563959378}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1001 &565624085
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1996280192660208, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_Name
+      value: LojaFerramentas_Destruido
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1227951
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -8.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536019131431894, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 32356e952c0244709bdf91f6f35489fd, type: 3}
+--- !u!1 &577126749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 577126750}
+  - component: {fileID: 577126751}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &577126750
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577126749}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &577126751
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577126749}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &618099071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 618099072}
+  - component: {fileID: 618099073}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &618099072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618099071}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &618099073
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 618099071}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &630688065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 630688066}
+  - component: {fileID: 630688067}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &630688066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630688065}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &630688067
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630688065}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &650948404
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650948405}
+  - component: {fileID: 650948406}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &650948405
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650948404}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &650948406
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650948404}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &662779507
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 662779508}
+  - component: {fileID: 662779509}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &662779508
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662779507}
+  m_LocalRotation: {x: -0, y: 0.29975933, z: -0, w: -0.9540149}
+  m_LocalPosition: {x: -0.6090174, y: 0, z: 0.79664135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 48
+  m_LocalEulerAnglesHint: {x: 0, y: -394.886, z: 0}
+--- !u!137 &662779509
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 662779507}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &667362804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2723118140183484035, guid: d7291199ce9827a45827ad9aef2ccfa0, type: 3}
+  m_PrefabInstance: {fileID: 2723118138898370287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &667362805
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667362804}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 42.118744, y: 5.3428125, z: 15.489801}
+  m_Center: {x: 0.0022258759, y: 2.6714058, z: -0.08531284}
+--- !u!4 &731047003 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4810169528331540, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &743172456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743172457}
+  - component: {fileID: 743172458}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &743172457
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743172456}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 47
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &743172458
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 743172456}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &748007792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 748007793}
+  - component: {fileID: 748007794}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &748007793
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748007792}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 46
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &748007794
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748007792}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &751167492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1060914252837188, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+  m_PrefabInstance: {fileID: 2118786907}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &751167496
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 751167492}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.5624828, y: 11.034239, z: 2.6439848}
+  m_Center: {x: -0.012682915, y: 5.5171194, z: -0.050246716}
+--- !u!4 &768100296 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4322183746729112, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &876284910 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4833387832597680, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &881877249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881877250}
+  - component: {fileID: 881877251}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &881877250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881877249}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &881877251
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881877249}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &882062387 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4159956656330372, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &887208965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4634032008162064, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &889437079 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4962514885412186, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &900761496
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900761497}
+  - component: {fileID: 900761498}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &900761497
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900761496}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &900761498
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900761496}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &933961241 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031022039527276, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1056068576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1056068577}
+  - component: {fileID: 1056068578}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1056068577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056068576}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1056068578
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056068576}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &1071451227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1071451228}
+  - component: {fileID: 1071451229}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1071451228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071451227}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1071451229
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1071451227}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &1090792387
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090792388}
+  - component: {fileID: 1090792389}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1090792388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090792387}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1090792389
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1090792387}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &1105598876 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4586264802888212, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1134981539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1134981540}
+  - component: {fileID: 1134981541}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1134981540
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134981539}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1134981541
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1134981539}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &1139567196 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4085197220006802, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1189002177
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_Name
+      value: Zumbi (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.703612
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.80839753
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.173677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.86448735
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.5026547
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -60.352
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532454278581017404, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 668044005809849029, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 702947222853873632, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424670023921048862, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323900474971749568, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466566442121838237, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 59
+      objectReference: {fileID: 0}
+    - target: {fileID: 3088229796926796706, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509958484191547968, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849695954990459189, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 3944441183462770863, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4471133011952322740, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574650387984260043, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726568253110446865, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5055407345844069736, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366233407435855204, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946820509742136995, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254789090985982262, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814366063444546175, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105497242038689203, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410473228050495010, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 9170777222404731894, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35861510587b7489780fe86970823679, type: 3}
+--- !u!4 &1210877059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4388596583815700, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1220319505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1220319506}
+  - component: {fileID: 1220319507}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1220319506
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220319505}
+  m_LocalRotation: {x: -0, y: 0.29975933, z: -0, w: -0.9540149}
+  m_LocalPosition: {x: -0.6090174, y: 0, z: 0.79664135}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 48
+  m_LocalEulerAnglesHint: {x: 0, y: -394.886, z: 0}
+--- !u!137 &1220319507
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220319505}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
 --- !u!1 &1223895142
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,13 +3417,279 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223895142}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.39291772, y: -0.23255235, z: 0.11361511, w: 0.8823983}
+  m_LocalPosition: {x: 0, y: 7.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 48.268, y: -28.844, z: 1.529}
+--- !u!4 &1251006471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4134477478833348, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1251774368 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4145740658659914, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1260619236
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1260619237}
+  - component: {fileID: 1260619238}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1260619237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260619236}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1260619238
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260619236}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &1282475170 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4962514885412186, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1294479820 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4827467465036434, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1344056591 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7507216976737569922, guid: 362ff3400e151c944835e034c84ad6ed, type: 3}
+  m_PrefabInstance: {fileID: 7507216977145945161}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1344056595
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344056591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 4.3
+  m_Center: {x: -12.1, y: -0.42279413, z: -8.7}
+--- !u!135 &1344056596
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344056591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.35
+  m_Center: {x: -37.1, y: -0, z: -25.29}
+--- !u!65 &1344056597
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344056591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 58.916443, y: 0.5754654, z: 45.2812}
+  m_Center: {x: -29.458221, y: -0.35965565, z: -22.640265}
+--- !u!1 &1352847900
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352847901}
+  - component: {fileID: 1352847902}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352847901
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352847900}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1352847902
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352847900}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
 --- !u!1 &1386243134
 GameObject:
   m_ObjectHideFlags: 0
@@ -427,6 +3787,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Jogador: {fileID: 2133762082}
+--- !u!4 &1392540121 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4322183746729112, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1419215096
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -464,7 +3829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4610746654156704, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -508,6 +3873,1505 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
+--- !u!1 &1509854310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1509854311}
+  - component: {fileID: 1509854312}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1509854311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509854310}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1509854312
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509854310}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &1515074020
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1515074021}
+  - component: {fileID: 1515074022}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1515074021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515074020}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1515074022
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515074020}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &1528259601 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4085197220006802, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1541727533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1541727534}
+  - component: {fileID: 1541727535}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1541727534
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541727533}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1541727535
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541727533}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &1545419045 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4827467465036434, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1565935546 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4991665432160622, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1566514071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1566514072}
+  - component: {fileID: 1566514073}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1566514072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566514071}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1566514073
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566514071}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &1579510261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1579510262}
+  - component: {fileID: 1579510263}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1579510262
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579510261}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1579510263
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579510261}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1001 &1587284126
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_Name
+      value: Zumbi (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.287463
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.80839753
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.152467
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9409548
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.3385323
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -39.575
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 532454278581017404, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 668044005809849029, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 69
+      objectReference: {fileID: 0}
+    - target: {fileID: 702947222853873632, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 68
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424670023921048862, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2323900474971749568, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: 2466566442121838237, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 59
+      objectReference: {fileID: 0}
+    - target: {fileID: 3088229796926796706, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 3509958484191547968, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 67
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849695954990459189, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 3944441183462770863, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 61
+      objectReference: {fileID: 0}
+    - target: {fileID: 4471133011952322740, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574650387984260043, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726568253110446865, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 5055407345844069736, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5366233407435855204, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946820509742136995, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7254789090985982262, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814366063444546175, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 8105497242038689203, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8410473228050495010, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 9170777222404731894, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 49
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35861510587b7489780fe86970823679, type: 3}
+--- !u!4 &1613830170 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4145740658659914, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1620524702 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4388769296639126, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1631338636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631338637}
+  - component: {fileID: 1631338638}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1631338637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631338636}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1631338638
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631338636}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &1642947029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642947030}
+  - component: {fileID: 1642947031}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642947030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642947029}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1642947031
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642947029}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &1648361981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1648361982}
+  - component: {fileID: 1648361983}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1648361982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648361981}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 47
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1648361983
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648361981}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &1673335640 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4031022039527276, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1189002177}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1707013503 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4404746216630624, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1722053778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1722053779}
+  - component: {fileID: 1722053780}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1722053779
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722053778}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1722053780
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722053778}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &1885124608 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4016398349323206, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1905072016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1905072017}
+  - component: {fileID: 1905072018}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1905072017
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905072016}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &1905072018
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905072016}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &2028047954 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4991665432160622, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2029669037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2029669038}
+  - component: {fileID: 2029669039}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2029669038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029669037}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 499332217}
+  m_RootOrder: 45
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2029669039
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029669037}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 87649060}
+  - {fileID: 270311091}
+  - {fileID: 1545419045}
+  - {fileID: 1251006471}
+  - {fileID: 1613830170}
+  - {fileID: 496254665}
+  - {fileID: 889437079}
+  - {fileID: 1707013503}
+  - {fileID: 887208965}
+  - {fileID: 149338406}
+  - {fileID: 1139567196}
+  - {fileID: 882062387}
+  - {fileID: 393358445}
+  - {fileID: 933961241}
+  - {fileID: 2139733614}
+  - {fileID: 1392540121}
+  - {fileID: 1885124608}
+  - {fileID: 2028047954}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 87649060}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!1 &2099386852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9033760159934547519, guid: 04b8149e387518e4ca66486513981eaf, type: 3}
+  m_PrefabInstance: {fileID: 8462692232277238980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2099386853
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099386852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 45.723274, y: 11.958488, z: 13.036137}
+  m_Center: {x: 0.04279709, y: 5.2166243, z: -2.0379295}
+--- !u!135 &2099386854
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099386852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.74
+  m_Center: {x: -8.02, y: 3.57, z: 5.32}
+--- !u!135 &2099386855
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099386852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3.94
+  m_Center: {x: 12.86, y: 5.2166243, z: 7.8}
+--- !u!1001 &2118786907
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1060914252837188, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_Name
+      value: Hotel_Placa
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.657997
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.2856803
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.8389606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4566268011468642, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ffcbfd5563b81402fa99efcd98ed9a4f, type: 3}
+--- !u!1 &2124573828
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2124573829}
+  - component: {fileID: 2124573830}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2124573829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124573828}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 45
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2124573830
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124573828}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
 --- !u!1 &2133762082 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1884102019447498, guid: 4b3bb44effa49480d8d18049684cc33a, type: 3}
@@ -545,6 +5409,199 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!136 &2133762086
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133762082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 1
+  m_Height: 3
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.44, z: 0}
+--- !u!54 &2133762087
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133762082}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 0
+--- !u!1 &2139104012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2139104013}
+  - component: {fileID: 2139104014}
+  m_Layer: 0
+  m_Name: Zumbi_SegurancaAeroporto (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2139104013
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139104012}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259889810}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &2139104014
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139104012}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 3811677930c7b3946abaf2ce9cdfea21, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 4300000, guid: dbbc53a6bc8f5c64bb234194ce1380aa, type: 3}
+  m_Bones:
+  - {fileID: 1210877059}
+  - {fileID: 1105598876}
+  - {fileID: 1294479820}
+  - {fileID: 196468373}
+  - {fileID: 1251774368}
+  - {fileID: 1620524702}
+  - {fileID: 1282475170}
+  - {fileID: 310893253}
+  - {fileID: 14297244}
+  - {fileID: 876284910}
+  - {fileID: 1528259601}
+  - {fileID: 58499212}
+  - {fileID: 545756630}
+  - {fileID: 1673335640}
+  - {fileID: 731047003}
+  - {fileID: 768100296}
+  - {fileID: 454478026}
+  - {fileID: 1565935546}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 1210877059}
+  m_AABB:
+    m_Center: {x: 0.0000017285347, y: 1.41348, z: -0.07679981}
+    m_Extent: {x: 1.6845055, y: 1.4134803, z: 0.4339838}
+  m_DirtyAABB: 0
+--- !u!4 &2139733614 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4810169528331540, guid: 35861510587b7489780fe86970823679, type: 3}
+  m_PrefabInstance: {fileID: 1587284126}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &199332259041456385
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1063500868937916, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_Name
+      value: Zumbi
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.276664
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.80839753
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -13.096156
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9664486
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.25686014
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -29.768
+      objectReference: {fileID: 0}
+    - target: {fileID: 4941635705825534, guid: 35861510587b7489780fe86970823679, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 35861510587b7489780fe86970823679, type: 3}
 --- !u!1001 &2723118138898370287
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -554,7 +5611,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2723118140183055011, guid: d7291199ce9827a45827ad9aef2ccfa0, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2723118140183055011, guid: d7291199ce9827a45827ad9aef2ccfa0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -615,7 +5672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7507216976737865890, guid: 362ff3400e151c944835e034c84ad6ed, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7507216976737865890, guid: 362ff3400e151c944835e034c84ad6ed, type: 3}
       propertyPath: m_LocalPosition.x
@@ -668,7 +5725,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2213391479736997369, guid: 04b8149e387518e4ca66486513981eaf, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2213391479736997369, guid: 04b8149e387518e4ca66486513981eaf, type: 3}
       propertyPath: m_LocalPosition.x
