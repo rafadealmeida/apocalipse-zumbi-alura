@@ -36,6 +36,13 @@ public class controlaJogador : MonoBehaviour
     {
         //Movimentação do jogador junto com a fisica.
         GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + (direcao * Velocidade * Time.deltaTime));
+
+        ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
+
+        Debug.drawRay(raio.origin,raio.direction*100, Color.red);
+
+        RaycastHit impacto;
+
     }
     
 }
