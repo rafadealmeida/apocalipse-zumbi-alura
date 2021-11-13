@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class controlaJogador : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class controlaJogador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame
@@ -36,6 +37,10 @@ public class controlaJogador : MonoBehaviour
     }
         else {
             GetComponent<Animator>().SetBool("Mover",false);
+        }
+
+        if(vivo == false && Input.GetButtonDown("Fire1")){
+            SceneManager.LoadScene("game");
         }
     }
     void FixedUpdate()

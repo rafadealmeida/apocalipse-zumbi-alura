@@ -31,7 +31,7 @@ public class ControlaZumbi : MonoBehaviour
 
         if (distancia>2.5 &&  distancia <20){
 
-            //O mover o personagem pela fisica (Daonde a fisica deixou ele + a direção que ele deve ir normalizada, para igualar a o movimento, *velocidade do zumbi *Time.deltaTime, para deixar mais liso)
+            //O mover o personagem pela fisica (Da onde a fisica deixou ele + a direção que ele deve ir normalizada, para igualar a o movimento, *velocidade do zumbi *Time.deltaTime, para deixar mais liso)
             GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + direcao.normalized*Velocidade*Time.deltaTime);
             GetComponent<Animator>().SetBool("PertoPlayer",true);
             GetComponent<Animator>().SetBool("Atacando",false);
@@ -49,5 +49,7 @@ public class ControlaZumbi : MonoBehaviour
     void AtacaJogador(){
         Time.timeScale = 0;
         Jogador.GetComponent<controlaJogador>().TextoGamerOver.SetActive(true);
+
+        Jogador.GetComponent<controlaJogador>().vivo = false;
     }
 }
