@@ -40,3 +40,5 @@ sysinfo.txt
 Logs/shadercompiler-UnityShaderCompiler.exe3.log
 *.log
 Logs/ApiUpdaterCheck.txt
+ProjectSettings/TagManager.asset
+Assets/game.unity
