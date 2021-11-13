@@ -6,12 +6,18 @@ public class ControlaZumbi : MonoBehaviour
 {
     public GameObject Jogador;
     public float Velocidade = 5;
+    private Rigidbody rigidbodyZumbi;
+    private Animator animatorZumbi;
+
     // Start is called before the first frame update
     void Start()
     {
         Jogador = GameObject.FindWithTag("Player");
         int geraTipoZumbi = Random.Range(1,28);
         transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
+
+        rigidbodyZumbi = GetComponent<Rigidbody>();
+        animatorZumbi = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -29,21 +35,21 @@ public class ControlaZumbi : MonoBehaviour
         Quaternion novaRotacao = Quaternion.LookRotation(direcao);
 
             //Fazer a fisica rotacionar o boneco com base na variavel definida,sobre a direção do player.
-        GetComponent<Rigidbody>().MoveRotation(novaRotacao);
+       rigidbodyZumbi.MoveRotation(novaRotacao);
 
         if (distancia>2.5 &&  distancia <20){
 
             //O mover o personagem pela fisica (Da onde a fisica deixou ele + a direção que ele deve ir normalizada, para igualar a o movimento, *velocidade do zumbi *Time.deltaTime, para deixar mais liso)
-            GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + direcao.normalized*Velocidade*Time.deltaTime);
-            GetComponent<Animator>().SetBool("PertoPlayer",true);
-            GetComponent<Animator>().SetBool("Atacando",false);
+           rigidbodyZumbi.MovePosition(GetComponent<Rigidbody>().position + direcao.normalized*Velocidade*Time.deltaTime);
+            animatorZumbi.SetBool("PertoPlayer",true);
+            animatorZumbi.SetBool("Atacando",false);
         }    
         else if (distancia<=2.5)
         {
-            GetComponent<Animator>().SetBool("Atacando",true);
+            animatorZumbi.SetBool("Atacando",true);
         }
         else if (distancia>=20){
-            GetComponent<Animator>().SetBool("PertoPlayer",false );
+            animatorZumbi.SetBool("PertoPlayer",false );
 
         }
     } 

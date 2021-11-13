@@ -15,10 +15,16 @@ public class controlaJogador : MonoBehaviour
 
     public bool vivo = true;
 
+    private Rigidbody rigidbodyJogador;
+
+    private Animator animatorJogador;
+
     // Start is called before the first frame update
     void Start()
     {
         Time.timeScale = 1;
+        rigidbodyJogador = GetComponent<Rigidbody>();
+        animatorJogador = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -29,14 +35,14 @@ public class controlaJogador : MonoBehaviour
         float eixoZ = Input.GetAxis("Vertical");
 
         Vector3 direcao = new Vector3(eixoX,0 ,eixoZ);
-        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + (direcao * Velocidade * Time.deltaTime));
+       rigidbodyJogador.MovePosition(rigidbodyJogador.position + (direcao * Velocidade * Time.deltaTime));
 
         //Animações do jogador
         if(direcao != Vector3.zero){
-            GetComponent<Animator>().SetBool("Mover", true);
+            animatorJogador.SetBool("Mover", true);
     }
         else {
-            GetComponent<Animator>().SetBool("Mover",false);
+            animatorJogador.SetBool("Mover",false);
         }
 
         if(vivo == false && Input.GetButtonDown("Fire1")){
@@ -46,7 +52,7 @@ public class controlaJogador : MonoBehaviour
     void FixedUpdate()
     {
         //Movimentação do jogador junto com a fisica.
-        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + (direcao * Velocidade * Time.deltaTime));
+        rigidbodyJogador.MovePosition(rigidbodyJogador.position + (direcao * Velocidade * Time.deltaTime));
 
         Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
 
@@ -61,7 +67,7 @@ public class controlaJogador : MonoBehaviour
 
             Quaternion rotacaoJogador = Quaternion.LookRotation(posicaoMiraJogador);
 
-            GetComponent<Rigidbody>().MoveRotation(rotacaoJogador);
+            rigidbodyJogador.MoveRotation(rotacaoJogador);
         }
 
     }
