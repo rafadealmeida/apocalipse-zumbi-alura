@@ -11,6 +11,15 @@ public class Bala : MonoBehaviour
     void FixedUpdate()
     {
         //movimento da bala.
-        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position + transform.forward);
+        GetComponent<Rigidbody>().MovePosition(GetComponent<Rigidbody>().position  + transform.forward*Velocidade * Time.deltaTime);
+    }
+    
+    void OnTriggerEnter(Collider objetoDeColisao)
+    {
+        if(objetoDeColisao.tag == "Inimigo")
+        {
+            Destroy(objetoDeColisao.gameObject);
+        }
+        Destroy(gameObject);
     }
 }

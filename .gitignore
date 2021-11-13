@@ -39,3 +39,4 @@ sysinfo.txt
 *.log
 Logs/shadercompiler-UnityShaderCompiler.exe3.log
 *.log
+Logs/ApiUpdaterCheck.txt
