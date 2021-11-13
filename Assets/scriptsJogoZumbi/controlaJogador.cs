@@ -10,6 +10,10 @@ public class controlaJogador : MonoBehaviour
 
     public LayerMask Mascarachao;
 
+    public GameObject TextoGamerOver;
+
+    public bool vivo = true;
+
     // Start is called before the first frame update
     void Start()
     {
