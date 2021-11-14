@@ -9,6 +9,8 @@ public class ControlaZumbi : MonoBehaviour
     private Rigidbody rigidbodyZumbi;
     private Animator animatorZumbi;
 
+    public AudioSource audioSourceZumbi;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +20,10 @@ public class ControlaZumbi : MonoBehaviour
 
         rigidbodyZumbi = GetComponent<Rigidbody>();
         animatorZumbi = GetComponent<Animator>();
+
+        int barulho = Random.Range(1,6);
+
+       audioSourceZumbi.Play();
     }
 
     // Update is called once per frame
@@ -37,14 +43,14 @@ public class ControlaZumbi : MonoBehaviour
             //Fazer a fisica rotacionar o boneco com base na variavel definida,sobre a direção do player.
        rigidbodyZumbi.MoveRotation(novaRotacao);
 
-        if (distancia>2.5 ){
+        if (distancia>3 ){
 
             //O mover o personagem pela fisica (Da onde a fisica deixou ele + a direção que ele deve ir normalizada, para igualar a o movimento, *velocidade do zumbi *Time.deltaTime, para deixar mais liso)
            rigidbodyZumbi.MovePosition(GetComponent<Rigidbody>().position + direcao.normalized*Velocidade*Time.deltaTime);
            
             animatorZumbi.SetBool("Atacando",false);
         }    
-        else if (distancia<=2.5)
+        else if (distancia<=3)
         {
             animatorZumbi.SetBool("Atacando",true);
         }
