@@ -22,6 +22,8 @@ public class controlaJogador : MonoBehaviour
 
     public Interface scriptInterface;
 
+    public AudioClip SomDeDano;
+
    
 
     // Start is called before the first frame update
@@ -82,6 +84,7 @@ public class controlaJogador : MonoBehaviour
         Vida -= dano;
 
         scriptInterface.AtualizarSliderVidaJogador();
+        ControlaAudio.instance.PlayOneShot(SomDeDano);
 
         if(Vida <= 0){
             Time.timeScale = 0;
