@@ -4,18 +4,15 @@ using UnityEngine;
 
 public class ControlaAudio : MonoBehaviour
 {
-    public AudioSource audiosourceMusicaDeFundo;
+    public AudioSource MeuAudioSource;
+    public static AudioSource instance;
 
-    public AudioClip  musicasDeFundo;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+        MeuAudioSource = GetComponent<AudioSource>();
+        instance = MeuAudioSource;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
