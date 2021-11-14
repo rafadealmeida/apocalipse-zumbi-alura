@@ -13,7 +13,6 @@ public class controlaJogador : MonoBehaviour
 
     public GameObject TextoGamerOver;
 
-    public bool vivo = true;
 
     private Rigidbody rigidbodyJogador;
 
@@ -21,7 +20,7 @@ public class controlaJogador : MonoBehaviour
 
     public int Vida = 100;
 
-    public int dano = 10;
+   
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +48,7 @@ public class controlaJogador : MonoBehaviour
             animatorJogador.SetBool("Mover",false);
         }
 
-        if(vivo == false && Input.GetButtonDown("Fire1")){
+        if(Vida <= 0 && Input.GetButtonDown("Fire1")){
             SceneManager.LoadScene("game");
         }
     }
@@ -76,14 +75,13 @@ public class controlaJogador : MonoBehaviour
 
     }
 
-    public void TomarDano()
+    public void TomarDano(int dano)
     {
         Vida -= dano;
 
-        if(Vida == 0){
-            vivo = false;
+        if(Vida <= 0){
             Time.timeScale = 0;
-            transform.GetComponent<controlaJogador>().TextoGamerOver.SetActive(true);
+            TextoGamerOver.SetActive(true);
         }
     }
     

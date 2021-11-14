@@ -8,7 +8,7 @@ public class ControlaZumbi : MonoBehaviour
     public float Velocidade = 5;
     private Rigidbody rigidbodyZumbi;
     private Animator animatorZumbi;
-
+    
     public AudioSource audioSourceZumbi;
 
     // Start is called before the first frame update
@@ -62,7 +62,7 @@ public class ControlaZumbi : MonoBehaviour
        // Jogador.GetComponent<controlaJogador>().TextoGamerOver.SetActive(true);
        //  Jogador.GetComponent<controlaJogador>().vivo = false;
 
-
-       Jogador.GetComponent<controlaJogador>().TomarDano();
+        int dano = Random.Range(10,21);
+       Jogador.GetComponent<controlaJogador>().TomarDano(dano);
     }
 }
