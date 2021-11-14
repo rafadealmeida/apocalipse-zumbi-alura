@@ -21,6 +21,8 @@ public class controlaJogador : MonoBehaviour
 
     public int Vida = 100;
 
+    public int dano = 10;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -76,7 +78,13 @@ public class controlaJogador : MonoBehaviour
 
     public void TomarDano()
     {
+        Vida -= dano;
 
+        if(Vida == 0){
+            vivo = false;
+            Time.timeScale = 0;
+            transform.GetComponent<controlaJogador>().TextoGamerOver.SetActive(true);
+        }
     }
     
 }

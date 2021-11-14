@@ -63,6 +63,6 @@ public class ControlaZumbi : MonoBehaviour
        //  Jogador.GetComponent<controlaJogador>().vivo = false;
 
 
-       Jogador.getComponent<controlaJogador>().TomarDano();
+       Jogador.GetComponent<controlaJogador>().TomarDano();
     }
 }
