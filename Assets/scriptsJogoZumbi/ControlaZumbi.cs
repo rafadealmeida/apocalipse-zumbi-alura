@@ -43,16 +43,20 @@ public class ControlaZumbi : MonoBehaviour
             //Fazer a fisica rotacionar o boneco com base na variavel definida,sobre a direção do player.
        rigidbodyZumbi.MoveRotation(novaRotacao);
 
-        if (distancia>3 ){
+        if (distancia>3 && distancia < 25 ){
 
             //O mover o personagem pela fisica (Da onde a fisica deixou ele + a direção que ele deve ir normalizada, para igualar a o movimento, *velocidade do zumbi *Time.deltaTime, para deixar mais liso)
            rigidbodyZumbi.MovePosition(GetComponent<Rigidbody>().position + direcao.normalized*Velocidade*Time.deltaTime);
            
             animatorZumbi.SetBool("Atacando",false);
+            animatorZumbi.SetBool("PertoPlayer", true);
         }    
         else if (distancia<=3)
         {
             animatorZumbi.SetBool("Atacando",true);
+        }
+        else if (distancia >= 25 ){
+            animatorZumbi.SetBool("PertoPlayer", false);
         }
     }
         
