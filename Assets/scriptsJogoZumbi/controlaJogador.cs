@@ -19,6 +19,8 @@ public class controlaJogador : MonoBehaviour
 
     private Animator animatorJogador;
 
+    public int Vida = 100;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,6 +71,11 @@ public class controlaJogador : MonoBehaviour
 
             rigidbodyJogador.MoveRotation(rotacaoJogador);
         }
+
+    }
+
+    public void TomarDano()
+    {
 
     }
     
