@@ -20,6 +20,8 @@ public class controlaJogador : MonoBehaviour
 
     public int Vida = 100;
 
+    public Interface scriptInterface;
+
    
 
     // Start is called before the first frame update
@@ -78,6 +80,8 @@ public class controlaJogador : MonoBehaviour
     public void TomarDano(int dano)
     {
         Vida -= dano;
+
+        scriptInterface.AtualizarSliderVidaJogador();
 
         if(Vida <= 0){
             Time.timeScale = 0;
