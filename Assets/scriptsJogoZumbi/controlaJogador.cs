@@ -22,7 +22,7 @@ public class controlaJogador : MonoBehaviour
 
     public Interface scriptInterface;
 
-    public AudioClip SomDeDano;
+    public AudioClip SomDeDano; 
 
    
 

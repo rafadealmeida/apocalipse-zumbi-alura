@@ -5,6 +5,8 @@ using UnityEngine;
 public class Bala : MonoBehaviour
 {   
     public  float Velocidade = 20;
+
+    public AudioClip MorteZumbi;
     // Start is called before the first frame update
    
     // Update is called once per frame
@@ -18,6 +20,7 @@ public class Bala : MonoBehaviour
     {
         if(objetoDeColisao.tag == "Inimigo")
         {
+            ControlaAudio.instance.PlayOneShot(MorteZumbi);
             Destroy(objetoDeColisao.gameObject);
         }
         Destroy(gameObject);
