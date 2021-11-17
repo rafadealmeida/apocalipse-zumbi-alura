@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class MovimentoPersonagem: MonoBehaviour
 {
-    void Movimentar(){
-        
+    private Rigidbody  meuRigidbody;
+    void Awake(){
+        meuRigidbody = GetComponent<Rigidbody>();
+    }
+
+
+    public void Movimentar(Vector3 direcao, float velocidade){
+          meuRigidbody.MovePosition(GetComponent<Rigidbody>().position + direcao.normalized*velocidade*Time.deltaTime);
     }
 
 }
