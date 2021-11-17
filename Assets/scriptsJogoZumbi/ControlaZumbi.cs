@@ -26,11 +26,6 @@ public class ControlaZumbi : MonoBehaviour
        audioSourceZumbi.Play();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void FixedUpdate(){
         
         float distancia = Vector3.Distance(transform.position,Jogador.transform.position);// calcula a distancia entre dois elementos

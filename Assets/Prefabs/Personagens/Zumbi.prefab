@@ -550,6 +550,7 @@ GameObject:
   - component: {fileID: 3171843106768994207}
   - component: {fileID: 6097395642237024646}
   - component: {fileID: -2998990327567225987}
+  - component: {fileID: 6034471788346342393}
   m_Layer: 0
   m_Name: Zumbi
   m_TagString: Inimigo
@@ -780,6 +781,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6034471788346342393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063500868937916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be2c60158a5b4c54f884da2424e21df4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1065480718027956
 GameObject:
   m_ObjectHideFlags: 0
