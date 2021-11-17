@@ -35,10 +35,8 @@ public class ControlaZumbi : MonoBehaviour
         Vector3 direcao = Jogador.transform.position - transform.position;  // direção para percorrer a distancia entre dois elementos.
 
             // Definindo uma variavel de rotação que olhara para a direção de aonde estas nosso player. 
-        Quaternion novaRotacao = Quaternion.LookRotation(direcao);
 
-            //Fazer a fisica rotacionar o boneco com base na variavel definida,sobre a direção do player.
-       rigidbodyZumbi.MoveRotation(novaRotacao);
+            movimentoInimigo.Rotacionar(direcao);
 
         if (distancia>3 && distancia < 25 ){
 

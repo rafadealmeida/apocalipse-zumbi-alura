@@ -14,4 +14,10 @@ public class MovimentoPersonagem: MonoBehaviour
           meuRigidbody.MovePosition(GetComponent<Rigidbody>().position + direcao.normalized*velocidade*Time.deltaTime);
     }
 
+    public void Rotacionar(Vector3 direcao){
+        Quaternion novaRotacao = Quaternion.LookRotation(direcao);
+
+            //Fazer a fisica rotacionar o boneco com base na variavel definida,sobre a direção do player.
+        meuRigidbody.MoveRotation(novaRotacao);
+    }
 }
