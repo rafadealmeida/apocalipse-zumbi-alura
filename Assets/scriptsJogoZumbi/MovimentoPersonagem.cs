@@ -11,7 +11,7 @@ public class MovimentoPersonagem: MonoBehaviour
 
 
     public void Movimentar(Vector3 direcao, float velocidade){
-          meuRigidbody.MovePosition(GetComponent<Rigidbody>().position + direcao.normalized*velocidade*Time.deltaTime);
+          meuRigidbody.MovePosition(meuRigidbody.position + direcao.normalized*velocidade*Time.deltaTime);
     }
 
     public void Rotacionar(Vector3 direcao){

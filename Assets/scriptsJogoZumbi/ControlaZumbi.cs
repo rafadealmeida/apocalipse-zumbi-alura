@@ -6,9 +6,8 @@ public class ControlaZumbi : MonoBehaviour
 {
     public GameObject Jogador;
     public float Velocidade = 5;
-    private Rigidbody rigidbodyZumbi;
-    private Animator animatorZumbi;
     private MovimentoPersonagem movimentoInimigo;
+    private AnimacaoPersonagem animacaoInimigo;
     
     public AudioSource audioSourceZumbi;
 
@@ -18,10 +17,9 @@ public class ControlaZumbi : MonoBehaviour
         Jogador = GameObject.FindWithTag("Player");
         int geraTipoZumbi = Random.Range(1,28);
         transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
-
-        rigidbodyZumbi = GetComponent<Rigidbody>();
-        animatorZumbi = GetComponent<Animator>();
+        
         movimentoInimigo = GetComponent<MovimentoPersonagem>();
+        animacaoInimigo = GetComponent<AnimacaoPersonagem>();
 
         int barulho = Random.Range(1,6);
 
@@ -43,15 +41,18 @@ public class ControlaZumbi : MonoBehaviour
             //O mover o personagem pela fisica (Da onde a fisica deixou ele + a direção que ele deve ir normalizada, para igualar a o movimento, *velocidade do zumbi *Time.deltaTime, para deixar mais liso)
            movimentoInimigo.Movimentar(direcao, Velocidade);
            
-            animatorZumbi.SetBool("Atacando",false);
-            animatorZumbi.SetBool("PertoPlayer", true);
+            animacaoInimigo.Atacar(false);
+            animacaoInimigo.PertoPlayer(true);
+            
         }    
         else if (distancia<=3)
         {
-            animatorZumbi.SetBool("Atacando",true);
+            animacaoInimigo.Atacar(true);
+            
         }
         else if (distancia >= 25 ){
-            animatorZumbi.SetBool("PertoPlayer", false);
+            animacaoInimigo.PertoPlayer(false);
+            
         }
     }
         
