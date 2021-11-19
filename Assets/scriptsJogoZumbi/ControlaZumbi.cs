@@ -15,9 +15,8 @@ public class ControlaZumbi : MonoBehaviour
     void Start()
     {
         Jogador = GameObject.FindWithTag("Player");
-        int geraTipoZumbi = Random.Range(1,28);
-        transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
-        
+        ZumbiAleatorio();
+
         movimentoInimigo = GetComponent<MovimentoPersonagem>();
         animacaoInimigo = GetComponent<AnimacaoPersonagem>();
 
@@ -64,5 +63,9 @@ public class ControlaZumbi : MonoBehaviour
 
         int dano = Random.Range(10,21);
        Jogador.GetComponent<controlaJogador>().TomarDano(dano);
+    }
+    void ZumbiAleatorio(){
+          int geraTipoZumbi = Random.Range(1,28);
+        transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
     }
 }
