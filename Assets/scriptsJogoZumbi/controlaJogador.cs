@@ -13,7 +13,7 @@ public class controlaJogador : MonoBehaviour
 
     public GameObject TextoGamerOver;
 
-
+    private MovimentoJogador meuMovimentoJogador;
     private Rigidbody rigidbodyJogador;
 
     private Animator animatorJogador;
@@ -32,6 +32,7 @@ public class controlaJogador : MonoBehaviour
         Time.timeScale = 1;
         rigidbodyJogador = GetComponent<Rigidbody>();
         animatorJogador = GetComponent<Animator>();
+        meuMovimentoJogador = GetComponent<MovimentoJogador>();
     }
 
     // Update is called once per frame
@@ -59,23 +60,9 @@ public class controlaJogador : MonoBehaviour
     void FixedUpdate()
     {
         //Movimentação do jogador junto com a fisica.
-        rigidbodyJogador.MovePosition(rigidbodyJogador.position + (direcao * Velocidade * Time.deltaTime));
+        meuMovimentoJogador.Movimentar(direcao,Velocidade);
 
-        Ray raio = Camera.main.ScreenPointToRay(Input.mousePosition);
-
-        Debug.DrawRay(raio.origin,raio.direction*100, Color.red);
-
-        RaycastHit impacto;
-
-        if( Physics.Raycast(raio,out impacto,100, Mascarachao)){
-            Vector3 posicaoMiraJogador = impacto.point - transform.position;
-
-            posicaoMiraJogador.y = 0;
-
-            Quaternion rotacaoJogador = Quaternion.LookRotation(posicaoMiraJogador);
-
-            rigidbodyJogador.MoveRotation(rotacaoJogador);
-        }
+        meuMovimentoJogador.RotacaoJogador(Mascarachao);
 
     }
 
