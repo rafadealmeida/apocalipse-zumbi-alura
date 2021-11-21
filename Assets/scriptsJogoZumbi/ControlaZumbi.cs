@@ -16,7 +16,7 @@ public class ControlaZumbi : MonoBehaviour, Imatavel
     // Start is called before the first frame update
     void Start()
     {
-        Jogador = GameObject.FindWithTag("Player");
+        Jogador = GameObject.FindWithTag(Tags.Jogador);
         ZumbiAleatorio();
 
         movimentoInimigo = GetComponent<MovimentoPersonagem>();

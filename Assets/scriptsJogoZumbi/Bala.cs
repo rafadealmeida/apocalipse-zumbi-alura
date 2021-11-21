@@ -19,7 +19,7 @@ public class Bala : MonoBehaviour
     
     void OnTriggerEnter(Collider objetoDeColisao)
     {
-        if(objetoDeColisao.tag == "Inimigo")
+        if(objetoDeColisao.tag == Tags.Zumbi)
         {
             objetoDeColisao.GetComponent<ControlaZumbi>().TomarDano(danoTiro);
         }
