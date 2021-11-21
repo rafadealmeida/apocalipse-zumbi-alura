@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimacacaoPersonagem : MonoBehaviour
+public class AnimacaoPersonagem : MonoBehaviour
 {
 
     private Animator meuAnimator;
@@ -16,5 +16,8 @@ public class AnimacacaoPersonagem : MonoBehaviour
     public void Atacar(bool estado)
     {
         meuAnimator.SetBool("Atacando",estado);
+    }
+     public void PertoPlayer(bool estado){
+        meuAnimator.SetBool("PertoPlayer", estado);
     }
 }
