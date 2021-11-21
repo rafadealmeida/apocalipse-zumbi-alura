@@ -20,4 +20,7 @@ public class AnimacaoPersonagem : MonoBehaviour
      public void PertoPlayer(bool estado){
         meuAnimator.SetBool("PertoPlayer", estado);
     }
+    public void Movimentar(float valorDeMovimento){
+        meuAnimator.SetFloat("Mover1",valorDeMovimento);
+    }
 }

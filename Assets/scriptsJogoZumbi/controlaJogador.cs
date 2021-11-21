@@ -14,9 +14,7 @@ public class controlaJogador : MonoBehaviour
     public GameObject TextoGamerOver;
 
     private MovimentoJogador meuMovimentoJogador;
-    private Rigidbody rigidbodyJogador;
-
-    private Animator animatorJogador;
+    private AnimacaoPersonagem animacaoJogador; 
 
     public int Vida = 100;
 
@@ -30,9 +28,9 @@ public class controlaJogador : MonoBehaviour
     void Start()
     {
         Time.timeScale = 1;
-        rigidbodyJogador = GetComponent<Rigidbody>();
-        animatorJogador = GetComponent<Animator>();
+     
         meuMovimentoJogador = GetComponent<MovimentoJogador>();
+        animacaoJogador = GetComponent<AnimacaoPersonagem>();
     }
 
     // Update is called once per frame
@@ -43,15 +41,11 @@ public class controlaJogador : MonoBehaviour
         float eixoZ = Input.GetAxis("Vertical");
 
         Vector3 direcao = new Vector3(eixoX,0 ,eixoZ);
-       rigidbodyJogador.MovePosition(rigidbodyJogador.position + (direcao * Velocidade * Time.deltaTime));
-
+       
+        meuMovimentoJogador.Movimentar(direcao,Velocidade);
         //Animações do jogador
-        if(direcao != Vector3.zero){
-            animatorJogador.SetBool("Mover", true);
-    }
-        else {
-            animatorJogador.SetBool("Mover",false);
-        }
+
+        animacaoJogador.Movimentar(direcao.magnitude);
 
         if(Vida <= 0 && Input.GetButtonDown("Fire1")){
             SceneManager.LoadScene("game");
