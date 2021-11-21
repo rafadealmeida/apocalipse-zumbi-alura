@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class controlaJogador : MonoBehaviour
 {
-    public float Velocidade = 10;
-
+   
     Vector3 direcao;
 
     public LayerMask Mascarachao;
@@ -16,11 +15,11 @@ public class controlaJogador : MonoBehaviour
     private MovimentoJogador meuMovimentoJogador;
     private AnimacaoPersonagem animacaoJogador; 
 
-    public int Vida = 100;
-
     public Interface scriptInterface;
 
     public AudioClip SomDeDano; 
+
+    public Status statusJogador;
 
    
 
@@ -31,6 +30,7 @@ public class controlaJogador : MonoBehaviour
      
         meuMovimentoJogador = GetComponent<MovimentoJogador>();
         animacaoJogador = GetComponent<AnimacaoPersonagem>();
+        statusJogador = GetComponent<Status>();
     }
 
     // Update is called once per frame
@@ -42,19 +42,19 @@ public class controlaJogador : MonoBehaviour
 
         Vector3 direcao = new Vector3(eixoX,0 ,eixoZ);
        
-        meuMovimentoJogador.Movimentar(direcao,Velocidade);
+        meuMovimentoJogador.Movimentar(direcao,statusJogador.Velocidade);
         //Animações do jogador
 
         animacaoJogador.Movimentar(direcao.magnitude);
 
-        if(Vida <= 0 && Input.GetButtonDown("Fire1")){
+        if(statusJogador.Vida <= 0 && Input.GetButtonDown("Fire1")){
             SceneManager.LoadScene("game");
         }
     }
     void FixedUpdate()
     {
         //Movimentação do jogador junto com a fisica.
-        meuMovimentoJogador.Movimentar(direcao,Velocidade);
+        meuMovimentoJogador.Movimentar(direcao,statusJogador.Velocidade);
 
         meuMovimentoJogador.RotacaoJogador(Mascarachao);
 
@@ -62,12 +62,12 @@ public class controlaJogador : MonoBehaviour
 
     public void TomarDano(int dano)
     {
-        Vida -= dano;
+        statusJogador.Vida -= dano;
 
         scriptInterface.AtualizarSliderVidaJogador();
         ControlaAudio.instance.PlayOneShot(SomDeDano);
 
-        if(Vida <= 0){
+        if(statusJogador.Vida <= 0){
             Time.timeScale = 0;
             TextoGamerOver.SetActive(true);
         }
