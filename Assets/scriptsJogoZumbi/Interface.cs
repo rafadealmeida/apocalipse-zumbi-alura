@@ -7,6 +7,7 @@ public class Interface : MonoBehaviour
 {
     private controlaJogador scriptControlaJogador;
     public Slider SliderVidaJogador;
+    
     // Start is called before the first frame update
     void Start()
     {
