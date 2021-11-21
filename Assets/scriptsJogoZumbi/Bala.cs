@@ -7,6 +7,7 @@ public class Bala : MonoBehaviour
     public  float Velocidade = 20;
 
     public AudioClip MorteZumbi;
+    private int danoTiro = 1;
     // Start is called before the first frame update
    
     // Update is called once per frame
@@ -20,8 +21,8 @@ public class Bala : MonoBehaviour
     {
         if(objetoDeColisao.tag == "Inimigo")
         {
-            objetoDeColisao.GetComponent<ControlaZumbi>().TomarDano(1);
+            objetoDeColisao.GetComponent<ControlaZumbi>().TomarDano(danoTiro);
         }
-        Destroy(gameObject);
+       Destroy(gameObject);
     }
 }
