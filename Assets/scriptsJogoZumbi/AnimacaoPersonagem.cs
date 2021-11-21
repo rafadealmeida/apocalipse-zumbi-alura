@@ -23,4 +23,8 @@ public class AnimacaoPersonagem : MonoBehaviour
     public void Movimentar(float valorDeMovimento){
         meuAnimator.SetFloat("Mover",valorDeMovimento);
     }
+    public void Andar(bool estado){
+        meuAnimator.SetBool("Vagar", estado);
+    }
+
 }
