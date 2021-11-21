@@ -2,13 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ControlaZumbi : MonoBehaviour
+public class ControlaZumbi : MonoBehaviour, Imatavel
 {
     public GameObject Jogador;
     public float Velocidade = 5;
     private MovimentoPersonagem movimentoInimigo;
     private AnimacaoPersonagem animacaoInimigo;
     private Status statusZumbi;
+    public AudioClip MorteZumbi;
     
     public AudioSource audioSourceZumbi;
 
@@ -69,5 +70,16 @@ public class ControlaZumbi : MonoBehaviour
     void ZumbiAleatorio(){
           int geraTipoZumbi = Random.Range(1,28);
         transform.GetChild(geraTipoZumbi).gameObject.SetActive(true);
+    }
+
+    public void TomarDano(int dano){
+        statusZumbi.Vida -=dano;
+        if(statusZumbi.Vida<=0){
+            Morrer();
+        }
+    }
+    public void Morrer(){
+        Destroy(gameObject);
+        ControlaAudio.instance.PlayOneShot(MorteZumbi);
     }
 }

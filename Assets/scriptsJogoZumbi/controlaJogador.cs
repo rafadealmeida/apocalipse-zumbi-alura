@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class controlaJogador : MonoBehaviour
+public class controlaJogador : MonoBehaviour, Imatavel
 {
    
     Vector3 direcao;
@@ -68,9 +68,12 @@ public class controlaJogador : MonoBehaviour
         ControlaAudio.instance.PlayOneShot(SomDeDano);
 
         if(statusJogador.Vida <= 0){
-            Time.timeScale = 0;
-            TextoGamerOver.SetActive(true);
+           Morrer();
         }
+    }
+    public void Morrer(){
+         Time.timeScale = 0;
+            TextoGamerOver.SetActive(true);
     }
     
 }

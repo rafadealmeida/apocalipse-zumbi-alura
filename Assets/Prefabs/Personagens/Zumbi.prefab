@@ -670,6 +670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Jogador: {fileID: 0}
   Velocidade: 5
+  MorteZumbi: {fileID: 8300000, guid: 5f7ef254ed13a8744932b8729ce632b3, type: 3}
   audioSourceZumbi: {fileID: -2998990327567225987}
 --- !u!54 &6097395642237024646
 Rigidbody:
@@ -819,7 +820,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea88860ef669e474aa1a39da2b7b424e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VidaInicial: 100
+  VidaInicial: 1
   Vida: 0
   Velocidade: 5
 --- !u!1 &1065480718027956
